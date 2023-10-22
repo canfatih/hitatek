@@ -1,0 +1,14 @@
+.bidencomp{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.bidenimage{
+    width: 100%;
+
+}
+.bidentextgroup{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

@@ -1,0 +1,35 @@
+.herocomp{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+    width: 100%;
+}
+.herocomp h2{
+    font-family: Noto serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+}
+.herocomp img{
+    width: 100%;
+}
+.herocomptext{
+    font-family: Noto serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: black;
+}
+.personcard{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: black;
+    
+}

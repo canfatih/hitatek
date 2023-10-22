@@ -1,0 +1,21 @@
+
+.buttongroup{
+ display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+}
+.hamburgerlinks{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-weight:700;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}

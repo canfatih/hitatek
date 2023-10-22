@@ -1,0 +1,19 @@
+.trumb{
+    display: flex;
+    flex-direction: column;
+    width: 615px;
+    height: 188px;
+    background-color: black;
+    position:relative;
+    top: 106px;
+    left: 92px;
+    padding: 32px;
+    gap: 20px;
+}
+.trumb h3{
+    font-family: Noto serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}

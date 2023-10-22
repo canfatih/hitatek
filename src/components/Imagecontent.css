@@ -1,0 +1,37 @@
+.imagecontent{
+    display: flex;
+    width: 100%;
+    gap: 48px;
+    
+}
+.bottomimages{
+    width: 100%;
+    
+}
+.cardbottomcontent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.timeago{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+color: #A0A5AA;
+}
+.imagecontent .cardbottomcontent h3{
+    font-family: Noto serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+}
+.cardbottomtext{
+    font-family: Noto serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}

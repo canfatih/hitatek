@@ -1,0 +1,25 @@
+.rowcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+}
+.number{
+    
+font-family: 'Times New Roman', Times, serif;
+font-weight: 700;
+font-size: 48px;
+line-height: 51.36px;
+color: #BFC3C9;
+
+}
+.banners{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    font-family: Noto serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:  #22262A;
+}

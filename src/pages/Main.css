@@ -1,0 +1,149 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    flex-wrap: wrap;
+}
+.main h1{
+font-size: 20px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 2px;
+font-family: 'Times New Roman', Times, serif;
+color: #005D99;
+margin-left: 6.5vw;
+margin-top: 1.5vh;
+}
+.hamburgermenu{
+    display: none;
+}
+@media screen and (max-width:390px) {
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .main{
+        display: flex;
+        
+        flex-direction: column;
+        gap: 3vh;
+        flex-wrap: wrap;
+    }
+    .trumb{
+        display: none;
+    }
+    .rightfulltop{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6vw;
+    }
+   
+    
+    
+}
+@media screen and (max-width:900px) {
+    .main{
+        display: flex;
+        
+        flex-direction: column;
+        gap: 6vh;
+        flex-wrap: wrap;
+    }
+    .main h1{
+        font-size: 20px;
+        width: 100%;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 2px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #005D99;
+        margin-left: 6.5vw;
+        margin-top: 1.5vh;
+        }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       
+       height: 6vh;
+       cursor: pointer;
+    }
+    .navright{
+       display: none;
+      }
+      .hamburgermenu{
+        display: flex;
+      }
+
+    .full-top-comp{
+        
+      flex-wrap: wrap;
+    }
+
+    .full-bottom-comp{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .trumbcomp{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        height: 43vh;
+    
+    }
+    
+    .imagecontent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .bottomleft{
+        display: flex;
+        
+        width: 100%;
+    }
+    .bottomright{
+        display: none;
+         }
+  }
+.full-top-comp{
+    display: flex;
+    margin-right: 6.5vw;
+    margin-left: 6.5vw;
+    margin-bottom: 8vh;
+    gap: 6vw;
+}
+.rightfulltop{
+    display: flex;
+    
+    gap: 6vw;
+}
+.trumbcomp{
+    width: 100%;
+    height: 43vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.full-bottom-comp{
+    display: flex;
+    margin-right: 6.5vw;
+    margin-left: 6.5vw;
+    margin-bottom: 8vh;
+    gap: 6vw;
+}
+.bottomleft{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 75%;
+}
+.bottomright{
+width: 25%;
+}

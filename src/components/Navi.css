@@ -1,0 +1,43 @@
+.navi{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    height: 6vh;
+    width: 100%;
+    background-color: #005D99;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   margin-left: 3vw;
+   height: 6vh;
+   cursor: pointer;
+}
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-weight:700;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.navright{
+  display: flex;
+  align-items: center;
+    gap: 16px;
+    margin-right: 7vw;
+}
+.navbutton{
+    height: 6vh;
+    background-color: rgb(0, 137, 204);
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.bottombanner{
+    display: flex;
+    flex-direction:column;
+    gap: 12px;
+}
+.titlebot{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color:  #22262A;
+    ;
+}
+.rightbottombannerh3{
+    font-family: Noto serif;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+}
+.rightbannerbottomp{
+font-family: Noto serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: black;
+}
+.personrightbannerbottom{
+font-family: 'Times New Roman', Times, serif;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 1px;
+color: black;
+}
